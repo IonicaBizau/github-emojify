@@ -1,0 +1,28 @@
+{
+  "name": "github-emojify",
+  "version": "1.0.0",
+  "description": "Emojify your GitHub repository descriptions.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/github-emojifiy.git"
+  },
+  "keywords": [
+    "github",
+    "emojify",
+    "descriptions"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/github-emojifiy/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/github-emojifiy#readme",
+  "dependencies": {
+    "clp": "^3.2.0",
+    "starts-with-emoji": "^1.1.0"
+  }
+}
