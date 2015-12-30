@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Emojify your GitHub repository descriptions.",
   "main": "lib/index.js",
+  "bin": {
+    "github-emojify": "./bin/github-emojify"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,7 +25,13 @@
   },
   "homepage": "https://github.com/IonicaBizau/github-emojifiy#readme",
   "dependencies": {
+    "bindy": "^1.0.0",
     "clp": "^3.2.0",
+    "couleurs": "^5.2.0",
+    "emoji-from-text": "^1.0.0",
+    "emoji-logger": "^1.0.0",
+    "gh.js": "^2.4.0",
+    "same-time": "^2.3.0",
     "starts-with-emoji": "^1.1.0"
   }
 }
