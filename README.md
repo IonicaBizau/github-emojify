@@ -40,6 +40,33 @@ Enjoy the emoji spirit!
 Documentation can be found at https://github.com/IonicaBizau/github-emojifiy#readme
 ```
 
+## :crystal_ball: Before & After
+![](http://i.imgur.com/hZVAP6y.png)
+
+## Example
+
+Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
+
+```sh
+$ npm i --save github-emojify
+```
+
+```js
+const githubEmojify = require("github-emojify");
+
+// Emojify just one repo
+githubEmojify("ionicabizau/git-stats", "your token");
+
+// Emojify all my repos by this owner
+githubEmojify("ionicabizau", "your token").on(
+    "finish"
+  , console.log
+);
+
+// Remove emoji from all my repository descriptions
+githubEmojify("ionciabizau", "my token", true);
+```
+
 ## Documentation
 
 For full API reference, see the [DOCUMENTATION.md][docs] file.

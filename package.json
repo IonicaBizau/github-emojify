@@ -36,6 +36,14 @@
   },
   "blah": {
       "h_img": "http://i.imgur.com/CIeDHAi.png",
-      "ex_img": "http://i.imgur.com/sLiyIOK.png"
+      "ex_img": "http://i.imgur.com/sLiyIOK.png",
+      "installation": [
+          { "h2": ":crystal_ball: Before & After" },
+          {
+              "img": {
+                  "source": "http://i.imgur.com/hZVAP6y.png"
+              }
+          }
+      ]
   }
 }
