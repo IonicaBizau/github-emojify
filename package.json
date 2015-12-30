@@ -1,6 +1,6 @@
 {
   "name": "github-emojify",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0",
   "description": "Emojify your GitHub repository descriptions.",
   "main": "lib/index.js",
   "bin": {
