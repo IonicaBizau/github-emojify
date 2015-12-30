@@ -33,5 +33,9 @@
     "gh.js": "^2.4.0",
     "same-time": "^2.3.0",
     "starts-with-emoji": "^1.1.0"
+  },
+  "blah": {
+      "h_img": "http://i.imgur.com/CIeDHAi.png",
+      "ex_img": "http://i.imgur.com/sLiyIOK.png"
   }
 }

@@ -1,0 +1,53 @@
+#!/usr/bin/env node
+
+// Dependencies
+const githubEmojify = require("../lib")
+    , Clp = require("clp")
+    , package = require("../package")
+    , log = require("emoji-logger")
+    ;
+
+// Parse the command line arguments
+var inputOpt = new Clp.Option(["i", "input"], "The GitHub username or repository full name (owner/repo).", "owner[/repo]")
+  , tokenOpt = new Clp.Option(["t", "token"], "Your GitHub token. Generate one here: https://github.com/settings/tokens/new", "token")
+  , removeEmoji = new Clp.Option(["r", "remove"], "Remove first emoji from the description.")
+  , parser = new Clp({
+        name: "GitHub Emojify"
+      , version: package.version
+      , exe: package.name
+      , examples: [
+            "# Emojify just one  repository description"
+          , "github-emojify -i ionicabizau/git-stats"
+          , "# Emojify all my repository descriptions"
+          , "github-emojify -i ionicabizau"
+        ]
+      , docs_url: package.homepage
+      , notes: "Enjoy the emoji spirit!"
+      , process: true
+    }, [ inputOpt, tokenOpt, removeEmoji ])
+  ;
+
+if (!inputOpt.value) {
+    log("The input option is mandatory.", "error");
+    return console.log(parser.displayHelp());
+}
+
+if (!tokenOpt.value) {
+    log("The token option is mandatory.", "error");
+    return console.log(parser.displayHelp());
+}
+
+var ev = githubEmojify(inputOpt.value, tokenOpt.value, removeEmoji.is_provided);
+
+log.add("fail", "disappointed", "alizarin");
+log.add("progress", "truck", "peterRiver");
+log.add("repo-done", "smileCat", "nephritis");
+log.add("finish", "tada", "amethyst");
+
+ev.on("progress", m => log(m, "progress"));
+ev.on("skip", m => log(m, "warn"));
+ev.on("finish", m => log(m, "finish"));
+ev.on("repo-done", m => log(m, "repo-done"));
+ev.on("error", e => log(e.message || e, "error"));
+ev.on("fail", e => log(e, "fail"));
+log("Crunching the data.");
