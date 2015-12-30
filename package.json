@@ -1,6 +1,6 @@
 {
   "name": "github-emojify",
-  "version": "1.0.0",
+  "version": "1.0.0-beta1",
   "description": "Emojify your GitHub repository descriptions.",
   "main": "lib/index.js",
   "bin": {
@@ -28,22 +28,24 @@
     "bindy": "^1.0.0",
     "clp": "^3.2.0",
     "couleurs": "^5.2.0",
-    "emoji-from-text": "^1.0.0",
+    "emoji-from-text": "^1.1.0",
     "emoji-logger": "^1.0.0",
     "gh.js": "^2.4.0",
     "same-time": "^2.3.0",
     "starts-with-emoji": "^1.1.0"
   },
   "blah": {
-      "h_img": "http://i.imgur.com/CIeDHAi.png",
-      "ex_img": "http://i.imgur.com/sLiyIOK.png",
-      "installation": [
-          { "h2": ":crystal_ball: Before & After" },
-          {
-              "img": {
-                  "source": "http://i.imgur.com/hZVAP6y.png"
-              }
-          }
-      ]
+    "h_img": "http://i.imgur.com/CIeDHAi.png",
+    "ex_img": "http://i.imgur.com/sLiyIOK.png",
+    "installation": [
+      {
+        "h2": ":crystal_ball: Before & After"
+      },
+      {
+        "img": {
+          "source": "http://i.imgur.com/hZVAP6y.png"
+        }
+      }
+    ]
   }
 }
