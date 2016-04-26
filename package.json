@@ -1,6 +1,6 @@
 {
   "name": "github-emojify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Emojify your GitHub repository descriptions.",
   "main": "lib/index.js",
   "bin": {
@@ -47,5 +47,16 @@
         }
       }
     ]
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
