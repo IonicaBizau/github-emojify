@@ -1,9 +1,11 @@
 ## Documentation
+
 You can see below the API reference of this module.
 
 ### `githubEmojify(input, token, remove)`
 
 #### Params
+
 - **String** `input`: The GitHub owner (user or organization) or a specific repository in the `owner/repo` format.
 - **String** `token`: The access token.
 - **Boolean** `remove`: If `true`, the first emoji from the description will be removed (if the description starts with emoji).

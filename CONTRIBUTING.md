@@ -59,6 +59,8 @@ Contributions are more than welcome!
 
 Thanks! :sweat_smile:
 
-[1]: https://github.com/IonicaBizau/github-emojifiy/issues
+
+
+[1]: https://github.com/IonicaBizau/github-emojify/issues
 
 [2]: https://github.com/IonicaBizau/code-style
