@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/github-emojifiy.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/github-emojify.git"
   },
   "keywords": [
     "github",
@@ -21,9 +21,9 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/github-emojifiy/issues"
+    "url": "https://github.com/IonicaBizau/github-emojify/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/github-emojifiy#readme",
+  "homepage": "https://github.com/IonicaBizau/github-emojify#readme",
   "dependencies": {
     "bindy": "^1.0.0",
     "clp": "^3.2.0",
@@ -47,5 +47,16 @@
         }
       }
     ]
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
