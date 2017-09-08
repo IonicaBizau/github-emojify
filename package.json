@@ -1,6 +1,6 @@
 {
   "name": "github-emojify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Emojify your GitHub repository descriptions.",
   "main": "lib/index.js",
   "bin": {
@@ -18,7 +18,7 @@
     "emojify",
     "descriptions"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/github-emojify/issues"
@@ -54,9 +54,13 @@
     "lib/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
