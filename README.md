@@ -17,7 +17,11 @@ You can install the package globally and use it as command line tool:
 
 
 ```sh
-$ npm i -g github-emojify
+# Using npm
+npm install --global github-emojify
+
+# Using yarn
+yarn global add github-emojify
 ```
 
 
@@ -49,16 +53,21 @@ Documentation can be found at https://github.com/IonicaBizau/github-emojify#read
 ```
 
 ## :crystal_ball: Before & After
+
 ![](http://i.imgur.com/hZVAP6y.png)
 
 
 ## :clipboard: Example
 
 
-Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
+Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm` (or `yarn`):
 
 ```sh
-$ npm i --save github-emojify
+# Using npm
+npm install --save github-emojify
+
+# Using yarn
+yarn add github-emojify
 ```
 
 
@@ -87,7 +96,9 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
