@@ -58,7 +58,7 @@ You can install the package globally and use it as command line tool:
 
 ```sh
 # Using npm
-npm install --global github-emojify
+npm install --location=global github-emojify
 
 # Using yarn
 yarn global add github-emojify
